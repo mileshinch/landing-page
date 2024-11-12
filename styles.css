@@ -1,0 +1,34 @@
+.flex-container {
+    display: flex;
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  /* .flex-container div { */
+  .flex-container div {
+    background: peachpuff;
+    border: 2px solid brown;
+    height: 100px;
+    /* width: 250px; */
+    flex: 1 1 auto;
+  }
+
+  .section-one {
+    /* display: flex; */
+    /* flex: 1 1 0; */
+  }
+
+  .section-two {
+    /* display: flex; */
+    /* flex: 2; */
+  }
+
+  .flex-container .section-three {
+    /* display: flex; */
+    flex-shrink: 0;
+  }
+
+  
+  
+  /* .flex-container .two {
+    flex-shrink: 0;
+  } */
