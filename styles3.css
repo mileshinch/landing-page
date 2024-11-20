@@ -94,3 +94,22 @@ button {
     font-weight: 900;
     color: #1F2937;
 }
+
+.quote-div {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.quote {
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-source {
+    align-items: ;
+}
