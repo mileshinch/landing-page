@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -8,12 +10,18 @@ body {
     align-items: center;
     background-color: #1F2937;
     color: white;
-    height: 50px;
-    
+    height: 50px;   
+}
+
+.header-link,
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header-logo {
     font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul {
@@ -22,4 +30,67 @@ ul {
     margin: 0;
     padding: 0;
     gap: 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    gap: 30px;
+    flex: 1;
+    padding: 30px;
+}
+
+.title-div {
+    flex-basis: 300px;
+}
+
+.hero-image {
+    height: 250px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+.hero-secondary-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box {
+    outline: solid blue;
+    height: 100px;
+    width: 100px
+}
+
+.text {
+    width: 100px;
+}
+
+.card-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
