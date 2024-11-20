@@ -14,6 +14,33 @@
         </div>
         <div class="section-two"></div>
         <div class="section-three"></div>
+        
     </div>
+
+    
+
+
+    <script>
+ 
+        let answer = parseInt(prompt("Please enter a number between 1 and 100",));
+
+        for (i = 1; i <= answer; i ++) {
+            // if not divisble by 3 or 5 print number
+            if (((i % 3) != 0) && (( i % 5) != 0)) {
+                console.log(i)
+            // if  divisble by 3 but not by 5 print fizz
+            } else if (((i%3)==0) && ((i%5)!=0)) {
+                console.log('Fizz')
+            // if not divisble by 3 but divisble 5 print buzz
+            } else if (((i%3)!=0) && ((i%5)==0)) {
+                console.log('Buzz')
+            // otherwise print fizz buzz
+            } else {
+                console.log('FizzBuzz')
+            }
+        }
+
+        
+    </script>
 </body>
 </html>
